@@ -1,0 +1,37 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 4aa63335892694c4650d13e74dbd03ad827f6e90 Changes
+SHA1 35094d8d7d62257392e2f591e990f1c411714d65 MANIFEST
+SHA1 e8a84969a56810e853c88767cf366f88aa1b6d4e META.yml
+SHA1 7f1afbad28a08323ec7c7339aed0741f81e0b311 Makefile.PL
+SHA1 62d64668573a58706b237a650f8b0bca703928fa README
+SHA1 50c4d3b294728b5c8e544c7eb86d8c6d6dac76ee examples/client.pl
+SHA1 3ef362791d224ae41143e246cc066dbbbae08782 examples/log4perl.conf
+SHA1 58c9b300523bcbe6aa720c2ec3fe5231db075158 examples/server.pl
+SHA1 0be4b00280396e19e6aa631e3a405efda4c1e3a1 examples/userdb.txt
+SHA1 02d450be34d4a355d8fe9d70ef1da263a132cec6 lib/POE/Component/Server/TacacsPlus.pm
+SHA1 0a480fc7033dff430bdfad4aa45d75e1deacc7d6 lib/POE/Filter/TacacsPlus.pm
+SHA1 41533fbd463e42d2ecf1e119eca910c16809d13e t/01-distribution.t
+SHA1 3a8fa081129a583da1dec4b5882e815f350a497b t/pod-coverage.t
+SHA1 1c2221234c6e97bd628d78e90052efb1a794e6ec t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk3spcIACgkQC0OgUPgL2SfKMwCgi0K5LayJfNpSgvVMJ+6DbCLU
+i7wAn26THzuOkTrl32hPpoqbV3w60KEV
+=jHnF
+-----END PGP SIGNATURE-----
