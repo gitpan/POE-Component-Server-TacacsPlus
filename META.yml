@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               POE-Component-Server-TacacsPlus
-version:            1.10_01
+version:            1.10
 abstract:           POE Tacacs+ server component
 author:
     - Jozef Kutej <jkutej@cpan.org>
